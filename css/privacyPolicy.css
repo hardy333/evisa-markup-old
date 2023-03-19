@@ -1,0 +1,28 @@
+.privacy-policy-main{
+  background-color: white;
+  color: #055298;
+}
+
+.privacy-policy-main header h1{
+  font-weight: 700;
+
+  
+}
+
+.privacy-policy-main p{
+  font-size: 14px;
+}
+
+.header-main{
+  background-color: #ebebeb;
+  padding: 2rem 0;
+}
+
+.our-privacy{
+  background-color: #fff !important;
+}
+
+.our-privacy h2{
+  margin: 2.5rem 0 2rem;
+  font-weight: 400;
+}

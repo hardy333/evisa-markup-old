@@ -1,0 +1,49 @@
+.order-track-main{
+  padding-top: 70px;
+  color: #055298;
+  min-height: 400px;
+
+}
+
+.order-track-card{
+  background-color: #fff;
+
+  max-width: 600px;
+  margin: auto;
+  border-radius: 5px;
+  padding: 2rem 1rem 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+
+ .input{
+  padding-left: 1rem;
+  color: #045cac;
+}
+
+ .input,
+ textarea{
+  outline: none;
+}
+
+ .input::placeholder{
+  opacity: 0.3;
+  letter-spacing: 1px;
+  color: black;
+
+}
+
+
+.order-track-card h2{
+  font-size: 16px;
+  margin: 0;
+  font-weight: normal;
+}
+
+.order-track-card p{
+  margin: 0;
+  font-size: 13px;
+  font-weight: bold;
+}

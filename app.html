@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Evisa</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/slick.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/responsive.css" />
+</head>
+
+<body>
+  <header class="header-mobile">
+    <a href="#" class="logo">
+      <img src="./images/logo.svg" alt="" />
+    </a>
+    <input id="burger" type="checkbox" />
+    <label for="burger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+    <nav class="nav-mobile">
+      <ul>
+        <li>
+          <a href="#" class="login-btn">Log In</a>
+          <button class="lang-selector">
+            <img src="./images/lang.svg" alt="" />
+          </button>
+        </li>
+        <li><a href="#">Discover</a></li>
+        <li><a href="#">Book</a></li>
+        <li><a href="#">Manage</a></li>
+        <li><a href="#">Help</a></li>
+      </ul>
+    </nav>
+  </header>
+  <header class="header">
+    <div class="container">
+      <a href="#" class="logo">
+        <img src="./images/logo.svg" alt="" />
+      </a>
+      <nav>
+        <ul>
+          <li>
+            <a href="#">Discover</a>
+          </li>
+          <li>
+            <a href="#">Book</a>
+          </li>
+          <li>
+            <a href="#">Manage</a>
+          </li>
+          <li>
+            <a href="#">Help</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header-right">
+        <a href="#" class="login-btn">Log In</a>
+        <button class="lang-selector">
+          <img src="./images/lang.svg" alt="" />
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <h1 class="app-title">
+        Get Your Travel Documents for the United States
+      </h1>
+      <form action="#" class="app-form">
+        <ul class="progress">
+          <li class="step active"></li>
+          <li class="step"></li>
+          <li class="step"></li>
+          <li class="step"></li>
+          <li class="step"></li>
+          <li class="step"></li>
+        </ul>
+        <h3 class="your-app">Your Application</h3>
+        <div class="app-slider">
+          <div class="slide">
+            <div class="box">
+              <div class="field-wrapper">
+                <label for="#">I'm From</label>
+                <select class="selector" name="going_to">
+                  <option value="1">France</option>
+                  <option value="2">Belgium</option>
+                </select>
+              </div>
+              <div class="field-wrapper">
+                <label for="#">Applying For</label>
+                <input type="text" class="input" name="applying_for" />
+              </div>
+              <div class="field-wrapper">
+                <label for="#">E-mail</label>
+                <input type="text" class="input" name="email" />
+              </div>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="box">
+              <div class="field-wrapper">
+                <label for="#">Estimated start of trip</label>
+                <div class="fields-group">
+                  <select class="selector" name="start_month">
+                    <option value="1">November</option>
+                    <option value="2">December</option>
+                  </select>
+                  <select class="selector" name="start_day">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                  </select>
+                  <select class="selector" name="start_year">
+                    <option value="1">2021</option>
+                    <option value="2">2022</option>
+                  </select>
+                </div>
+              </div>
+              <div class="field-wrapper">
+                <label for="#">Estimated end of trip</label>
+                <div class="fields-group">
+                  <select class="selector" name="end_month">
+                    <option value="1">November</option>
+                    <option value="2">December</option>
+                  </select>
+                  <select class="selector" name="end_day">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                  </select>
+                  <select class="selector" name="end_year">
+                    <option value="1">2021</option>
+                    <option value="2">2022</option>
+                  </select>
+                </div>
+              </div>
+              <div class="field-wrapper">
+                <label for="#">Phone Number</label>
+                <input type="text" class="input" />
+              </div>
+            </div>
+            <div class="box">
+              <div class="fee">
+                <div class="fee-title">Travel Documet Application</div>
+                <ul>
+                  <li>
+                    <span>Government Fee</span>
+                    <span>0 USD</span>
+                  </li>
+                  <li>
+                    <span>Standard Processing - 24</span>
+                    <span>23 USD</span>
+                  </li>
+                </ul>
+                <div class="total">
+                  <span>Total</span>
+                  <span>23 USD
+                    <select class="selector" name="valute">
+                      <option value="1">USD</option>
+                      <option value="2">EURO</option>
+                    </select></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="applicants">
+              <div class="applicant">
+                <div class="box">
+                  <div class="field-wrapper">
+                    <label for="#">Country of Residence</label>
+                    <input type="text" class="input" />
+                  </div>
+                  <div class="field-wrapper">
+                    <div class="fields-group">
+                      <div class="fields-col">
+                        <label for="#">First Name</label>
+                        <input type="text" class="input" />
+                      </div>
+                      <div class="fields-col">
+                        <label for="#">Last Name</label>
+                        <input type="text" class="input" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="field-wrapper">
+                    <div class="fields-group">
+                      <div class="fields-col">
+                        <label for="#">Nationality as in Passport</label>
+                        <input type="text" class="input" />
+                      </div>
+                      <div class="fields-col">
+                        <label for="#">Passport Number</label>
+                        <input type="text" class="input" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="field-wrapper">
+                    <label for="#">Passport Issue Date</label>
+                    <div class="fields-group">
+                      <select class="selector" name="end_month">
+                        <option value="1">November</option>
+                        <option value="2">December</option>
+                      </select>
+                      <select class="selector" name="end_day">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                      </select>
+                      <select class="selector" name="end_year">
+                        <option value="1">2021</option>
+                        <option value="2">2022</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="field-wrapper">
+                    <label for="#">Passport expiration</label>
+                    <div class="fields-group">
+                      <select class="selector" name="end_month">
+                        <option value="1">November</option>
+                        <option value="2">December</option>
+                      </select>
+                      <select class="selector" name="end_day">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                      </select>
+                      <select class="selector" name="end_year">
+                        <option value="1">2021</option>
+                        <option value="2">2022</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="field-wrapper w50">
+                    <label for="#">Have You Been Fully Vaccinated for Covid - 19?</label>
+                    <select class="selector" name="end_year">
+                      <option value="1">yes</option>
+                      <option value="2">no</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="box add-applicant">
+              <span class="title">Add Another Person</span>
+              <button type="button">
+                <div class="add-icon">
+                  <span></span>
+                  <span></span>
+                </div>
+              </button>
+            </div>
+            <div class="box">
+              <div class="fee">
+                <div class="fee-title">Travel Documet Application</div>
+                <ul>
+                  <li>
+                    <span>Government Fee</span>
+                    <span>0 USD</span>
+                  </li>
+                  <li>
+                    <span>Standard Processing - 24</span>
+                    <span>23 USD</span>
+                  </li>
+                </ul>
+                <div class="total">
+                  <span>Total</span>
+                  <span>23 USD
+                    <select class="selector" name="valute">
+                      <option value="1">USD</option>
+                      <option value="2">EURO</option>
+                    </select></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="box">
+              <div class="packages">
+                <label class="package">
+                  <input type="radio" name="package" value="1" checked="checked" />
+                  <div class="package-info">
+                    <div class="left">Standard - 24 hours</div>
+                    <div class="right">
+                      <span>23 USD</span>
+                      <span>Price Per Aplicant</span>
+                    </div>
+                  </div>
+                </label>
+                <label class="package">
+                  <input type="radio" name="package" value="2" />
+                  <div class="package-info">
+                    <div class="left">Standard - 24 hours</div>
+                    <div class="right">
+                      <span>23 USD</span>
+                      <span>Price Per Aplicant</span>
+                    </div>
+                  </div>
+                </label>
+                <label class="package">
+                  <input type="radio" name="package" value="3" />
+                  <div class="package-info">
+                    <div class="left">Standard - 24 hours</div>
+                    <div class="right">
+                      <span>23 USD</span>
+                      <span>Price Per Aplicant</span>
+                    </div>
+                  </div>
+                </label>
+              </div>
+            </div>
+            <div class="box">
+              <div class="fee">
+                <div class="fee-title">Travel Documet Application</div>
+                <ul>
+                  <li>
+                    <span>Government Fee</span>
+                    <span>0 USD</span>
+                  </li>
+                  <li>
+                    <span>Standard Processing - 24</span>
+                    <span>23 USD</span>
+                  </li>
+                </ul>
+                <div class="total">
+                  <span>Total</span>
+                  <span>23 USD
+                    <select class="selector" name="valute">
+                      <option value="1">USD</option>
+                      <option value="2">EURO</option>
+                    </select></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="box">
+              <div class="field-wrapper">
+                <label for="#">I'm From</label>
+                <select class="selector" name="going_to">
+                  <option value="1">France</option>
+                  <option value="2">Belgium</option>
+                </select>
+              </div>
+              <div class="field-wrapper">
+                <label for="#">Applying For</label>
+                <input type="text" class="input" name="applying_for" />
+              </div>
+              <div class="field-wrapper">
+                <label for="#">E-mail</label>
+                <input type="text" class="input" name="email" />
+              </div>
+            </div>
+            <div class="box">
+              <div class="field-wrapper">
+                <label for="#">Estimated start of trip</label>
+                <div class="fields-group">
+                  <select class="selector" name="start_month">
+                    <option value="1">November</option>
+                    <option value="2">December</option>
+                  </select>
+                  <select class="selector" name="start_day">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                  </select>
+                  <select class="selector" name="start_year">
+                    <option value="1">2021</option>
+                    <option value="2">2022</option>
+                  </select>
+                </div>
+              </div>
+              <div class="field-wrapper">
+                <label for="#">Estimated end of trip</label>
+                <div class="fields-group">
+                  <select class="selector" name="end_month">
+                    <option value="1">November</option>
+                    <option value="2">December</option>
+                  </select>
+                  <select class="selector" name="end_day">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                  </select>
+                  <select class="selector" name="end_year">
+                    <option value="1">2021</option>
+                    <option value="2">2022</option>
+                  </select>
+                </div>
+              </div>
+              <div class="field-wrapper">
+                <label for="#">Phone Number</label>
+                <input type="text" class="input" />
+              </div>
+            </div>
+            <div class="box">
+              <div class="field-wrapper">
+                <label for="#">Country of Residence</label>
+                <input type="text" class="input" />
+              </div>
+              <div class="field-wrapper">
+                <div class="fields-group">
+                  <div class="fields-col">
+                    <label for="#">First Name</label>
+                    <input type="text" class="input" />
+                  </div>
+                  <div class="fields-col">
+                    <label for="#">Last Name</label>
+                    <input type="text" class="input" />
+                  </div>
+                </div>
+              </div>
+              <div class="field-wrapper">
+                <div class="fields-group">
+                  <div class="fields-col">
+                    <label for="#">Nationality as in Passport</label>
+                    <input type="text" class="input" />
+                  </div>
+                  <div class="fields-col">
+                    <label for="#">Passport Number</label>
+                    <input type="text" class="input" />
+                  </div>
+                </div>
+              </div>
+              <div class="field-wrapper">
+                <label for="#">Passport Issue Date</label>
+                <div class="fields-group">
+                  <select class="selector" name="end_month">
+                    <option value="1">November</option>
+                    <option value="2">December</option>
+                  </select>
+                  <select class="selector" name="end_day">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                  </select>
+                  <select class="selector" name="end_year">
+                    <option value="1">2021</option>
+                    <option value="2">2022</option>
+                  </select>
+                </div>
+              </div>
+              <div class="field-wrapper">
+                <label for="#">Passport expiration</label>
+                <div class="fields-group">
+                  <select class="selector" name="end_month">
+                    <option value="1">November</option>
+                    <option value="2">December</option>
+                  </select>
+                  <select class="selector" name="end_day">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                  </select>
+                  <select class="selector" name="end_year">
+                    <option value="1">2021</option>
+                    <option value="2">2022</option>
+                  </select>
+                </div>
+              </div>
+              <div class="field-wrapper w50">
+                <label for="#">Have You Been Fully Vaccinated for Covid - 19?</label>
+                <select class="selector" name="end_year">
+                  <option value="1">yes</option>
+                  <option value="2">no</option>
+                </select>
+              </div>
+            </div>
+            <div class="box">
+              <div class="packages">
+                <label class="package">
+                  <input type="radio" name="" value="1" checked="checked" />
+                  <div class="package-info">
+                    <div class="left">Standard - 24 hours</div>
+                    <div class="right">
+                      <span>23 USD</span>
+                      <span>Price Per Aplicant</span>
+                    </div>
+                  </div>
+                </label>
+                <label class="package">
+                  <input type="radio" name="" value="2" />
+                  <div class="package-info">
+                    <div class="left">Standard - 24 hours</div>
+                    <div class="right">
+                      <span>23 USD</span>
+                      <span>Price Per Aplicant</span>
+                    </div>
+                  </div>
+                </label>
+                <label class="package">
+                  <input type="radio" name="" value="3" />
+                  <div class="package-info">
+                    <div class="left">Standard - 24 hours</div>
+                    <div class="right">
+                      <span>23 USD</span>
+                      <span>Price Per Aplicant</span>
+                    </div>
+                  </div>
+                </label>
+              </div>
+            </div>
+            <div class="box">
+              <div class="fee">
+                <div class="fee-title">Travel Documet Application</div>
+                <ul>
+                  <li>
+                    <span>Government Fee</span>
+                    <span>0 USD</span>
+                  </li>
+                  <li>
+                    <span>Standard Processing - 24</span>
+                    <span>23 USD</span>
+                  </li>
+                </ul>
+                <div class="total">
+                  <span>Total</span>
+                  <span>23 USD
+                    <select class="selector" name="valute">
+                      <option value="1">USD</option>
+                      <option value="2">EURO</option>
+                    </select></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="box">
+              <div class="payment-box">
+                <div class="logos">
+                  <img src="./images/Visa_Logo.svg" alt="" />
+                  <img src="./images/Maestro_2016.svg" alt="" />
+                  <img src="./images/Amex.svg" alt="" />
+                  <img src="./images/logo-Paypal.svg" alt="" />
+                  <img src="./images/discover-logo-fixed-min.svg" alt="" />
+                </div>
+                <div class="field-wrapper">
+                  <label for="#">Payment Method</label>
+                  <select class="selector" name="payment_method">
+                    <option value="1">Visa</option>
+                    <option value="2">Paypal</option>
+                  </select>
+                </div>
+                <div class="field-wrapper">
+                  <label for="#">Card Number</label>
+                  <input type="text" class="input" name="email" />
+                </div>
+                <div class="field-wrapper">
+                  <div class="fields-group">
+                    <div class="fields-col">
+                      <label for="#">Expires</label>
+                      <input type="text" class="input" />
+                    </div>
+                    <div class="fields-col">
+                      <label for="#">CVV</label>
+                      <input type="text" class="input" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="actions">
+          <button type="button" class="btn btn-primary btn-prev">
+            Previous
+          </button>
+          <button type="button" class="btn btn-primary btn-next">
+            Continue
+          </button>
+          <button type="submit" class="btn btn-primary btn-submit">
+            Submit Payment
+          </button>
+        </div>
+      </form>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-logo-container">
+        <a href="#" class="footer-logo">
+          <img src="./images/footer_logo.svg" alt="" />
+        </a>
+      </div>
+      <nav class="footer-nav">
+        <ul>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#">News</a>
+          </li>
+          <li>
+            <a href="#">Blog</a>
+          </li>
+          <li>
+            <a href="#">Embassy Listing</a>
+          </li>
+          <li>
+            <a href="#">Track Your Order</a>
+          </li>
+          <li>
+            <a href="#">FAQ</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+          <li>
+            <a href="#">Privacy Oolicy</a>
+          </li>
+          <li>
+            <a href="#">Terms and Conditions</a>
+          </li>
+        </ul>
+      </nav>
+      <ul class="footer-socials">
+        <li>
+          <a href="#">
+            <img src="./images/Facebook.png" alt="" />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./images/Twitter.png" alt="" />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./images/Instagram.png" alt="" />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./images/Vimeo.png" alt="" />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./images/Linkedin.png" alt="" />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./images/Youtube.png" alt="" />
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+  <script src="./js/jquery.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+  <script src="./js/jquery.validate.min.js"></script>
+  <script src="./js/slick.min.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>

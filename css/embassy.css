@@ -1,0 +1,145 @@
+.embassy-main{
+  padding-bottom: 0;
+  color: #055298;
+  min-height: 400px;
+  
+}
+.embassy-main-header {
+  padding: 3rem 0;
+}
+
+.embassy-main-header h1{
+  font-size: 25px;
+  margin: 0;
+  margin-bottom: 10px;
+
+}
+.embassy-main-header p{
+  font-size: 23px;
+  letter-spacing: 3px;
+  margin: 0;
+}
+
+.embassy-main .container{
+  max-width: 500px;
+}
+
+ul{
+  list-style: none;
+
+}
+
+a{
+  color: #055298;
+}
+
+.embassy-lists-container{
+  padding: 2rem 0 3rem;
+  background-color: white;
+}
+
+.lists-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  gap: 2rem;
+}
+
+.embassy-list{
+
+}
+.embassy-list h5{
+  margin-bottom: 0.5rem;
+
+}
+
+.embassy-list ul{
+
+}
+
+.embassy-list li{
+  margin-bottom: 5px;
+  cursor: pointer;
+  font-size: 15px;
+
+}
+.embassy-list li:hover{
+  filter: brightness(50%);
+}
+
+.embassy-br{
+  display: none;
+}
+
+/* Embassy Information Start */
+.embassy-info-container{
+  padding-top: 2rem ;
+  padding-bottom: 3rem;
+}
+
+.embassy-info-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+}
+
+.embassy-info-form .selects-container {
+  width: 100%;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  
+}
+
+.select2-container {
+  width: 100% !important;
+  text-align: center;
+}
+
+.embassy-info-form button{
+  min-width: 250px !important;
+  max-width: 100%;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+
+.embassy-info-card{
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  
+}
+
+.embassy-info-card h2{
+  font-size: 16px;
+  
+}
+
+.embassy-info-card li{
+  font-size: 14px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.embassy-info-card li:last-child{
+  margin-bottom: 0;
+}
+/* Embassy Information End */
+
+
+
+@media (max-width: 600px) {
+  .embassy-br{
+    display: block;
+  }
+
+  .embassy-main-header p{
+    font-size: 22px;
+  }
+    
+}

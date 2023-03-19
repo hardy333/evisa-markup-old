@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Evisa</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/slick.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/responsive.css" />
+</head>
+
+<body>
+  <header class="header-mobile">
+    <a href="#" class="logo">
+      <img src="./images/logo.svg" alt="" />
+    </a>
+    <input id="burger" type="checkbox" />
+    <label for="burger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+    <nav class="nav-mobile">
+      <ul>
+        <li>
+          <a href="#" class="login-btn">Log In</a>
+          <button class="lang-selector">
+            <img src="./images/lang.svg" alt="" />
+          </button>
+        </li>
+        <li><a href="#">Discover</a></li>
+        <li><a href="#">Book</a></li>
+        <li><a href="#">Manage</a></li>
+        <li><a href="#">Help</a></li>
+      </ul>
+    </nav>
+  </header>
+  <header class="header">
+    <div class="container">
+      <a href="#" class="logo">
+        <img src="./images/logo.svg" alt="" />
+      </a>
+      <nav>
+        <ul>
+          <li>
+            <a href="#">Discover</a>
+          </li>
+          <li>
+            <a href="#">Book</a>
+          </li>
+          <li>
+            <a href="#">Manage</a>
+          </li>
+          <li>
+            <a href="#">Help</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header-right">
+        <a href="#" class="login-btn">Log In</a>
+        <button class="lang-selector">
+          <img src="./images/lang.svg" alt="" />
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <form class="search" action="#" method="#">
+      <select class="selector" name="coming_from">
+        <option value="">I'm from</option>
+        <option value="1">Georgia</option>
+        <option value="2">Spain</option>
+        <option value="3">Germany</option>
+      </select>
+      <select class="selector" name="going_to">
+        <option value="">I'm going</option>
+        <option value="1">France</option>
+        <option value="2">Belgium</option>
+      </select>
+      <button type="submit" class="btn btn-primary">Get Started</button>
+    </form>
+    <div class="hero-dest">
+      <h1>London calling</h1>
+      <p>
+        Discover London’s iconic landmarks, historic buildings and vibrant
+        culture on a trip to remember.
+      </p>
+      <a href="#" class="btn btn-secondary">Book a trip to London</a>
+    </div>
+  </section>
+  <section class="popular-dest">
+    <div class="container">
+      <h1 class="section-title">Most Popular Destinations</h1>
+    </div>
+    <div class="container">
+      <div class="dest-slider">
+        <a href="#" class="dest-item">
+          <div class="dest-image" style="background: url('./images/dest_spain.jpg')"></div>
+          <p class="dest-title">Spain</p>
+        </a>
+        <a href="#" class="dest-item">
+          <div class="dest-image" style="background: url('./images/dest_mexico.jpeg')"></div>
+          <p class="dest-title">Mexico</p>
+        </a>
+        <a href="#" class="dest-item">
+          <div class="dest-image" style="background: url('./images/dest_india.jpeg')"></div>
+          <p class="dest-title">India</p>
+        </a>
+        <a href="#" class="dest-item">
+          <div class="dest-image" style="background: url('./images/dest_italy.jpg')"></div>
+          <p class="dest-title">Italy</p>
+        </a>
+        <a href="#" class="dest-item">
+          <div class="dest-image" style="background: url('./images/dest_turkey.jpeg')"></div>
+          <p class="dest-title">Turkey</p>
+        </a>
+        <a href="#" class="dest-item">
+          <div class="dest-image" style="background: url('./images/dest_spain.jpg')"></div>
+          <p class="dest-title">Spain</p>
+        </a>
+        <a href="#" class="dest-item">
+          <div class="dest-image" style="background: url('./images/dest_mexico.jpeg')"></div>
+          <p class="dest-title">Mexico</p>
+        </a>
+      </div>
+    </div>
+    <div class="view-all-container">
+      <a href="#" class="view-all-btn">
+        <div>
+          <img src="./images/view-all-arrow.svg" alt="" />
+        </div>
+        <p>View All</p>
+      </a>
+    </div>
+  </section>
+  <section class="steps">
+    <div class="container">
+      <div class="step">You Apply Online</div>
+      <div class="step">We Take Care of Your Application</div>
+      <div class="step">You Enjoy Your Application</div>
+    </div>
+  </section>
+  <section class="apply">
+    <div class="container">
+      <div class="left">
+        <ul>
+          <li>
+            <div class="text">
+              <p>2000+</p>
+              <p>Application Processed</p>
+            </div>
+            <div class="image">
+              <img src="./images/index-page-imgs/n7.png" alt="" />
+            </div>
+          </li>
+          <li>
+            <div class="text">
+              <p>100%</p>
+              <p>Approval Assurance</p>
+            </div>
+            <div class="image">
+              <img src="./images/index-page-imgs/n54.png" alt="" />
+            </div>
+          </li>
+          <li>
+            <div class="text">
+              <p>2000+</p>
+              <p>Happty Costumers</p>
+            </div>
+            <div class="image">
+              <img src="./images/index-page-imgs/n9.png" alt="" />
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="right">
+        <h3>Why Choose Us?</h3>
+        <a href="#" class="btn btn-primary">Apply Now</a>
+      </div>
+    </div>
+    <div class="container">
+      <div class="left">
+        <ul>
+          <li>
+            <div class="text">
+              <p>Security</p>
+            </div>
+            <div class="image">
+              <img src="./images/index-page-imgs/sequrity.png" alt="" />
+            </div>
+          </li>
+          <li>
+            <div class="text">
+              <p>Supprort</p>
+            </div>
+            <div class="image">
+              <img src="./images/index-page-imgs/support.png" alt="" />
+            </div>
+          </li>
+          <li>
+            <div class="text">
+              <p>Speed</p>
+            </div>
+            <div class="image">
+              <img src="./images/index-page-imgs/speed.png" alt="" />
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="right">
+        <div class="about-text">
+          <p>
+            but also the leap into electronic typesetting, remaining
+            essentially unchanged. It was popularised in the 1960s with the
+            release of Letraset sheets containing Lorem Ipsum passages, and
+            more recently with desktop publishing software like Aldus
+            PageMaker including versions of Lorem Ipsum
+          </p>
+          <p>
+            but also the leap into electronic typesetting, remaining
+            essentially unchanged. It was popularised in the 1960s with the
+            release of Letraset sheets containing Lorem Ipsum passages, and
+            more recently with desktop publishing software like Aldus
+            PageMaker including versions of Lorem Ipsum
+          </p>
+          <p>
+            but also the leap into electronic typesetting, remaining
+            essentially unchanged. It was popularised in the 1960s with the
+            release of Letraset sheets containing Lorem Ipsum passages, and
+            more recently with desktop publishing software like Aldus
+            PageMaker including versions of Lorem Ipsum
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="left">
+        <ul>
+          <li>
+            <div class="text">
+              <p>You Apply Online</p>
+            </div>
+            <div class="image">
+              <img src="./images/index-page-imgs/applay-online.png" alt="" />
+            </div>
+          </li>
+          <li>
+            <div class="text">
+              <p>We Take Care of Your Application</p>
+            </div>
+            <div class="image">
+              <img src="./images/index-page-imgs/take-care.png" alt="" />
+            </div>
+          </li>
+          <li>
+            <div class="text">
+              <p>You Enjoy Your Application</p>
+            </div>
+            <div class="image">
+              <img src="./images/index-page-imgs/enjoy-app.png" alt="" />
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="right">
+        <h3>How It Works?</h3>
+        <a href="#" class="btn btn-primary">Apply Now</a>
+      </div>
+    </div>
+  </section>
+  <section class="blog">
+    <div class="container">
+      <h1 class="section-title">Blog and News</h1>
+    </div>
+    <div class="container">
+      <div class="blog-list">
+        <a href="#" class="blog-item">
+          <div class="blog-image" style="background: url('./images/blog_1.png')"></div>
+          <div class="blog-content">
+            <h3 class="blog-title">Did you know that this is on?</h3>
+            <p class="blog-text">
+              Find incredible fares on flights worldwide. Discover magical
+              cities and experience what you've been missing
+            </p>
+            <div class="blog-more">Read more...</div>
+          </div>
+        </a>
+        <a href="#" class="blog-item">
+          <div class="blog-image" style="background: url('./images/blog_2.png')"></div>
+          <div class="blog-content">
+            <h3 class="blog-title">Did you know?</h3>
+            <p class="blog-text">
+              Find incredible fares on flights worldwide. Discover magical
+              cities and experience what you've been missing
+            </p>
+            <div class="blog-more">Read more...</div>
+          </div>
+        </a>
+        <a href="#" class="blog-item">
+          <div class="blog-image" style="background: url('./images/blog_3.png')"></div>
+          <div class="blog-content">
+            <h3 class="blog-title">Something exciting is happening!</h3>
+            <p class="blog-text">
+              Find incredible fares on flights worldwide. Discover magical
+              cities and experience what you've been missing
+            </p>
+            <div class="blog-more">Read more...</div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="view-all-container">
+      <a href="#" class="view-all-btn">
+        <div>
+          <img src="./images/view-all-arrow.svg" alt="" />
+        </div>
+        <p>View All</p>
+      </a>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-logo-container">
+        <a href="#" class="footer-logo">
+          <img src="./images/footer_logo.svg" alt="" />
+        </a>
+      </div>
+      <nav class="footer-nav">
+        <ul>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#">News</a>
+          </li>
+          <li>
+            <a href="#">Blog</a>
+          </li>
+          <li>
+            <a href="#">Embassy Listing</a>
+          </li>
+          <li>
+            <a href="#">Track Your Order</a>
+          </li>
+          <li>
+            <a href="#">FAQ</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+          <li>
+            <a href="#">Privacy Oolicy</a>
+          </li>
+          <li>
+            <a href="#">Terms and Conditions</a>
+          </li>
+        </ul>
+      </nav>
+      <ul class="footer-socials">
+        <li>
+          <a href="#">
+            <img src="./images/Facebook.png" alt="" />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./images/Twitter.png" alt="" />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./images/Instagram.png" alt="" />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./images/Vimeo.png" alt="" />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./images/Linkedin.png" alt="" />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./images/Youtube.png" alt="" />
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+  <script src="./js/jquery.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+  <script src="./js/jquery.validate.min.js"></script>
+  <script src="./js/slick.min.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
